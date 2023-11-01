@@ -1,0 +1,22 @@
+---
+import 'rsuite/dist/rsuite.min.css';
+import '../style.css'
+
+import GameBox from '../components/GameBox';
+
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Commit Game</title>
+	</head>
+	<body>
+		<GameBox client:only />
+
+	</body>
+</html>
