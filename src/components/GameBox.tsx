@@ -17,10 +17,12 @@ export default function GameBox() {
 
   const toggleDraw = () => {
     if (!itv) {
+      let prevValue: number;
       const itv = setInterval(() => {
-        const s = getRandom([0, 1, 2, 3, 4, 5].filter(i => !answered.includes(i)));
+        const s = getRandom([0, 1, 2, 3, 4, 5].filter(i => ![...answered, prevValue].includes(i)));
+        prevValue = s;
         setSelected(s);
-      }, 100);
+      }, 200);
 
       setItv(itv);
     } else {
