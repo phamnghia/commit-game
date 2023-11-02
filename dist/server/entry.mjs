@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import http from 'node:http';
 import { TLSSocket } from 'node:tls';
 import 'cookie';
-import { l as levels, d as dateTimeFormat, A as AstroCookies, a as attachCookiesToResponse, c as createAPIContext, b as callEndpoint, e as callMiddleware, L as Logger, f as AstroIntegrationLogger, g as getSetCookiesFromResponse, manifest } from './manifest_db026ce9.mjs';
+import { l as levels, d as dateTimeFormat, A as AstroCookies, a as attachCookiesToResponse, c as createAPIContext, b as callEndpoint, e as callMiddleware, L as Logger, f as AstroIntegrationLogger, g as getSetCookiesFromResponse, manifest } from './manifest_dcb08249.mjs';
 import { yellow, dim, bold, cyan, red, reset } from 'kleur/colors';
 import { trimSlashes, joinPaths, slash, prependForwardSlash, removeTrailingForwardSlash, collapseDuplicateSlashes } from '@astrojs/internal-helpers/path';
 import { A as AstroError, G as GetStaticPathsRequired, k as InvalidGetStaticPathsReturn, l as InvalidGetStaticPathsEntry, n as GetStaticPathsExpectedParams, o as GetStaticPathsInvalidRouteParam, P as PageNumberParamNotFound, p as GetStaticPathsRemovedRSSHelper, N as NoMatchingStaticPathFound, q as PrerenderDynamicEndpointPathCollide, t as LocalsNotAnObject, R as ReservedSlotName, u as renderSlotToString, v as renderJSX, w as chunkToString, C as ClientAddressNotAvailable, S as StaticClientAddressNotAvailable, x as ResponseSentError, y as renderPage$1, z as AstroUserError } from './chunks/astro_e6b505e9.mjs';
@@ -1667,7 +1667,7 @@ const adapter = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
 }, Symbol.toStringTag, { value: 'Module' }));
 
 const _page0  = () => import('./chunks/node_7ad1cdb3.mjs');
-const _page1  = () => import('./chunks/index_02301d51.mjs');const pageMap = new Map([["node_modules/astro/dist/assets/endpoint/node.js", _page0],["src/pages/index.astro", _page1]]);
+const _page1  = () => import('./chunks/index_ad5955fe.mjs');const pageMap = new Map([["node_modules/astro/dist/assets/endpoint/node.js", _page0],["src/pages/index.astro", _page1]]);
 const _manifest = Object.assign(manifest, {
 	pageMap,
 	renderers,

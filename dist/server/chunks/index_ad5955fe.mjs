@@ -3,6 +3,6 @@ export { onRequest } from '../_empty-middleware.mjs';
 import 'react';
 import 'react-dom/server';
 
-const page = () => import('./pages/index_6a65e5ea.mjs');
+const page = () => import('./pages/index_46ad4a63.mjs');
 
 export { page };

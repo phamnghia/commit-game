@@ -6,7 +6,7 @@ const $$Astro = createAstro();
 const $$Index = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Index;
-  return renderTemplate`<html lang="en"><head><meta charset="utf-8"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="viewport" content="width=device-width"><meta name="generator"${addAttribute(Astro2.generator, "content")}><title>Hà Yêu Anh Nghĩa</title>${renderHead()}</head><body>${renderComponent($$result, "GameBox", null, { "client:only": true, "client:component-hydration": "only", "client:component-path": "/Users/phamnghia/Workspaces/GSE/comit-game/src/components/GameBox", "client:component-export": "default" })}</body></html>`;
+  return renderTemplate`<html lang="en"><head><meta charset="utf-8"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="viewport" content="width=device-width"><meta name="generator"${addAttribute(Astro2.generator, "content")}><title>Comit Game</title>${renderHead()}</head><body>${renderComponent($$result, "GameBox", null, { "client:only": true, "client:component-hydration": "only", "client:component-path": "/Users/phamnghia/Workspaces/GSE/comit-game/src/components/GameBox", "client:component-export": "default" })}</body></html>`;
 }, "/Users/phamnghia/Workspaces/GSE/comit-game/src/pages/index.astro", void 0);
 
 const $$file = "/Users/phamnghia/Workspaces/GSE/comit-game/src/pages/index.astro";
