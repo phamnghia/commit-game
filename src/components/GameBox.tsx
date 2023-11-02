@@ -49,7 +49,7 @@ export default function GameBox() {
       { questions.map((q, index) => <div
         key={index}
         onClick={() => viewQuestion(index)}
-        className={`w-full h-96 border rounded-md p-3 text-9xl ${answered.includes(index) ? "bg-gray-100" : "bg-cyan-100"} flex flex-row items-center ${selected === index ? "border-8 border-blue-400" : ""}`}
+        className={`w-full h-72 border rounded-md p-3 text-9xl ${answered.includes(index) ? "bg-gray-100" : "bg-cyan-100"} flex flex-row items-center ${selected === index ? "border-8 border-blue-400" : ""}`}
       >
         <div className="text-center w-full font-semibold">{index + 1}</div>
       </div>) }
